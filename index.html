@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./resources/css/estilos.css" />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <h1>Pokedex</h1>
+    <div class="background">
+      <div>
+        <div class="left-side">
+          <div class="top-left">
+            <span id="light-of-speaker"></span>
+            <span id="battery-status">
+              <span id="low-battery"></span>
+              <span id="half-battery"></span>
+              <span id="full-battery"></span>
+            </span>
+          </div>
+          <div>
+            <div id="display-pokemon">
+              <div>
+                <img
+                  aling="middle"
+                  id="image-display"
+                  src="./resources/img/pokeball.png"
+                  alt="./resources/img/pokeball.png"
+                />
+              </div>
+            </div>
+            <div id="inputs-left-side">
+              <div class="left-side-grid searcher-box">
+                <button id="btnSearch">Buscar</button>
+              </div>
+              <div class="button-box center-side-grid-top">
+                <button id="btnImage">Sprite</button>
+                <button id="btnMove-set">Moves</button>
+              </div>
+              <div id="direction-pad" class="right-side-grid">
+                <img src="./resources/img/d-pad.png" alt="" />
+              </div>
+              <div id="button-unknown" class="center-side-grid-bottom"></div>
+            </div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="top-right"></div>
+          <div>
+            <div>
+              <div>
+                <img src="" alt="" />
+                <input type="text" name="txtName" id="txtName" />
+              </div>
+            </div>
+            <div>
+              <table id="keys">
+                <tr id="first-row">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr id="second-row">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </table>
+            </div>
+            <div>
+              <div>
+                <span></span>
+                <span></span>
+              </div>
+              <div>
+                <div></div>
+                <div></div>
+                <div>
+                  <p id="size"></p>
+                  <p id="weight"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <script src="./resources/js/pokeapi-query.js" type="script"></script>
+  </footer>
+</html>
